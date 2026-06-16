@@ -56,6 +56,11 @@
     <string name="permission_location_message">GPS access is needed to track your workout route.</string>
     <string name="ok">OK</string>
 
+    <!-- Delete workout -->
+    <string name="delete_workout_title">Delete workout</string>
+    <string name="delete_workout_message">This workout will be permanently deleted. Continue?</string>
+    <string name="delete">Delete</string>
+
     <!-- General -->
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>

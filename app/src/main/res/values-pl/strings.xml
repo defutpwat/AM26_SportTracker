@@ -56,6 +56,11 @@
     <string name="permission_location_message">Dostęp do GPS jest potrzebny do śledzenia trasy treningu.</string>
     <string name="ok">OK</string>
 
+    <!-- Delete workout -->
+    <string name="delete_workout_title">Usuń trening</string>
+    <string name="delete_workout_message">Ten trening zostanie trwale usunięty. Kontynuować?</string>
+    <string name="delete">Usuń</string>
+
     <!-- General -->
     <string name="save">Zapisz</string>
     <string name="cancel">Anuluj</string>
