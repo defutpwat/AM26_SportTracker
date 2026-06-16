@@ -22,10 +22,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    // SHA-256 certyfikatu serwera — uzupełnij po wygenerowaniu certyfikatu SSL na backendzie.
-    // Jak uzyskać: openssl s_client -connect 10.0.2.2:8443 | openssl x509 -pubkey -noout |
-    //              openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | base64
-    private const val CERT_PIN = "sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    private const val CERT_PIN = "sha256/w8XX9UwuTTLXLHHfYkfHANyR+MuYklXRkOfXChCxSFo="
     private const val SERVER_HOST = "10.0.2.2"
 
     @Provides
