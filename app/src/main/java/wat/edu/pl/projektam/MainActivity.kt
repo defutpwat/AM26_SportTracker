@@ -71,8 +71,7 @@ class MainActivity : AppCompatActivity() {
     fun switchToAuthGraph() {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        val navController = navHostFragment.navController
-        navController.setGraph(R.navigation.auth_nav_graph)
+        navHostFragment.navController.setGraph(R.navigation.auth_nav_graph)
         binding.bottomNav.hide()
     }
 }
