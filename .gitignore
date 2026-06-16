@@ -13,6 +13,10 @@ captures/
 *.ap_
 *.txt
 
+# ── Sekrety / klucze ──────────────────────────────────────────────────
+google-services.json
+*serviceAccountKey*.json
+
 # ── Kotlin / Java ─────────────────────────────────────────────────────
 *.class
 *.jar
