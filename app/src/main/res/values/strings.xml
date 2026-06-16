@@ -34,6 +34,7 @@
     <string name="workout_type_running">Running</string>
     <string name="workout_type_walking">Walking</string>
     <string name="workout_type_strength">Strength</string>
+    <string name="workout_type_label">Workout type</string>
 
     <!-- Profile -->
     <string name="profile_title">Profile</string>
@@ -49,6 +50,11 @@
     <string name="settings_theme_dark">Dark</string>
     <string name="settings_theme_system">System Default</string>
     <string name="settings_language">Language</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Required</string>
+    <string name="permission_location_message">GPS access is needed to track your workout route.</string>
+    <string name="ok">OK</string>
 
     <!-- General -->
     <string name="save">Save</string>

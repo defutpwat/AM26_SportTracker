@@ -12,18 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/workoutFragment"
+        android:name="wat.edu.pl.projektam.presentation.workout.WorkoutFragment"
+        android:label="@string/home_start_workout"
+        tools:layout="@layout/fragment_workout" />
+
+    <fragment
         android:id="@+id/historyFragment"
         android:name="wat.edu.pl.projektam.presentation.history.HistoryFragment"
-        android:label="@string/nav_history" />
+        android:label="@string/nav_history"
+        tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="wat.edu.pl.projektam.presentation.profile.ProfileFragment"
-        android:label="@string/nav_profile" />
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/settingsFragment"
         android:name="wat.edu.pl.projektam.presentation.settings.SettingsFragment"
-        android:label="@string/nav_settings" />
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>

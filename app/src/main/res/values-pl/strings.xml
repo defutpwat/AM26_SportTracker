@@ -27,13 +27,14 @@
     <!-- Workout -->
     <string name="workout_active">Trening w toku</string>
     <string name="workout_distance">Dystans</string>
-    <string name="workout_duration">Czas trwania</string>
+    <string name="workout_duration">Czas</string>
     <string name="workout_pace">Tempo</string>
     <string name="workout_steps">Kroki</string>
     <string name="workout_stop">Zakończ trening</string>
     <string name="workout_type_running">Bieganie</string>
     <string name="workout_type_walking">Spacer</string>
     <string name="workout_type_strength">Siłowy</string>
+    <string name="workout_type_label">Typ treningu</string>
 
     <!-- Profile -->
     <string name="profile_title">Profil</string>
@@ -49,6 +50,11 @@
     <string name="settings_theme_dark">Ciemny</string>
     <string name="settings_theme_system">Domyślny systemowy</string>
     <string name="settings_language">Język</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Wymagana lokalizacja</string>
+    <string name="permission_location_message">Dostęp do GPS jest potrzebny do śledzenia trasy treningu.</string>
+    <string name="ok">OK</string>
 
     <!-- General -->
     <string name="save">Zapisz</string>
