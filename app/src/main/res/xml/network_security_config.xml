@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Konfiguracja bezpieczeństwa sieci:
+    - W debug: akceptujemy self-signed certyfikat serwera (do czasu wdrożenia)
+    - W release: aktywujemy certificate pinning przez OkHttp CertificatePinner
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <trust-anchors>
+            <!-- Systemowe CA (na potrzeby developerskie akceptuje self-signed) -->
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
